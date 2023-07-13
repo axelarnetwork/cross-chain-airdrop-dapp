@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@axelar-network/axelarjs-sdk": "^0.13.5",
     "@rainbow-me/rainbowkit": "^1.0.1",
     "ethers": "^5.7.2",
     "fs": "^0.0.1-security",
@@ -24,7 +25,7 @@
     "autoprefixer": "^10.4.14",
     "eslint": "8.42.0",
     "eslint-config-next": "13.4.4",
-    "hardhat": "^2.14.1",
+    "hardhat": "^2.16.1",
     "postcss": "^8.4.24",
     "tailwindcss": "^3.3.2"
   }
