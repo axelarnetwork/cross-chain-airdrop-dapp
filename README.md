@@ -1,10 +1,9 @@
 # Cross-chain Airdrop DApp
----
 
 This is a cross-chain airdrop DApp that allows users to airdrop tokens from one chain to another. This DApp is built using Solidity, Next.js and [Axelar General Message Passing](https://docs.axelar.dev/dev/general-message-passing/overview).
 
 ## **Table of Contents**
----
+
 - [**Features**](https://github.com/axelarnetwork/cross-chain-airdrop-dapp#features)
 - [**Installation**](#installation)
 - [**Usage**](#usage)
@@ -12,7 +11,7 @@ This is a cross-chain airdrop DApp that allows users to airdrop tokens from one 
 - [**Contributing**](#contributing)
 
 ## **Features**
----
+
 - Token airdrop from one chain to another
 - Airdrop stats
 - User-friendly interface with dark mode support
@@ -89,7 +88,7 @@ npm run dev
 Open your web browser and visit [`http://localhost:3000`](http://localhost:3000) to see the application running.
 
 ## **Usage**
----
+
 1. Connect your wallet to the DApp. Ensure you have some test tokens in your wallet.
 2. Approve the DApp to spend your tokens.
 3. Enter the amount of tokens you want to airdrop, receivers addresses and click on the `Airdrop` button.
@@ -97,7 +96,7 @@ Open your web browser and visit [`http://localhost:3000`](http://localhost:3000)
 5. Wait for the transaction to be confirmed. You can check the status of the transaction in the `Airdrop Stats` section.
 
 ## **Technologies Used**
----
+
 - React
 - Solidity
 - Axelar General Message Passing
@@ -109,7 +108,7 @@ Open your web browser and visit [`http://localhost:3000`](http://localhost:3000)
 - CSS (Tailwind CSS)
 
 ## **Contributing**
----
+
 Contributions are welcome! If you find any issues or want to contribute to the project, please follow these steps:
 
 1. Fork the repository.
