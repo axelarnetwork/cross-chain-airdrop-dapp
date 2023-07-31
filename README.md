@@ -61,7 +61,7 @@ To install and run this application locally, follow these steps:
    npx hardhat run scripts/deploy.js --network <network>
    ```
 
-   Replace `<network>` with the desired network (e.g. `bsc` and `avalancheFujiTestnet` in this case). Copy the contract address once the deployment is complete.
+   Replace `<network>` with the desired network (e.g. `polygon` and `avalancheFujiTestnet` in this case). Copy the contract address once the deployment is complete.
    
    > Ensure you update the Axelar gateway and gas service address for Binance and Avalanche respectively in `deploy.js` file under the `scripts` directory and deploy them separately. You  can find the gateway and gas service address [here](https://docs.axelar.dev/resources/testnet).
 
@@ -70,7 +70,7 @@ To install and run this application locally, follow these steps:
    - Create a `.env.local` file in the root directory.
    - Define the following variables in the `.env.local` file:
      ```apache
-     NEXT_PUBLIC_POLYGON_CONTRACT_ADDRESS=<BSC contract address>
+     NEXT_PUBLIC_POLYGON_CONTRACT_ADDRESS=<Polygon contract address>
      NEXT_PUBLIC_AVALANCHE_CONTRACT_ADDRESS=<Avalanche contract address>
      NEXT_PUBLIC_AVALANCHE_RPC_URL=https://avalanche-fuji-c-chain.publicnode.com
      ```
