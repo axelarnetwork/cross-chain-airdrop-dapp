@@ -91,7 +91,7 @@ Open your web browser and visit [`http://localhost:3000`](http://localhost:3000)
 
 1. Connect your wallet to the DApp. Ensure you have some test tokens in your wallet.
 2. Approve the DApp to spend your tokens.
-3. Enter the amount of tokens you want to airdrop, receivers addresses and click on the `Airdrop` button.
+3. Enter the amount of tokens you want to airdrop, receivers addresses and click on the `Send` button.
 4. Confirm the transaction in your wallet.
 5. Wait for the transaction to be confirmed. You can check the status of the transaction in the `Airdrop Stats` section.
 
@@ -99,7 +99,7 @@ Open your web browser and visit [`http://localhost:3000`](http://localhost:3000)
 
 - React
 - Solidity
-- Axelar General Message Passing
+- [Axelar General Message Passing](https://docs.axelar.dev/dev/general-message-passing/overview)
 - @rainbow-me/rainbowkit
 - wagmi
 - ethers.js

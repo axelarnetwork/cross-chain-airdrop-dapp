@@ -32,7 +32,7 @@ export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
   const [amount, setAmount] = useState(0);
   const [Addresses, setAddresses] = useState("");
-  const { address, connector, isConnected } = useAccount();
+  const { address } = useAccount();
   const [isSendButtonVisible, setIsSendButtonVisible] = useState(false);
   const [isApproveButtonVisible, setIsApproveButtonVisible] = useState(true);
   const [isTextareaVisible, setIsTextareaVisible] = useState(false);
