@@ -52,7 +52,7 @@ export default function Home() {
   // Approve USDC to be spent by the contract
   const { data: useContractWriteUSDCData, write: approveWrite } =
     useContractWrite({
-      address: "0x2c852e740B62308c46DD29B982FBb650D063Bd07", // Address of the USDC contract
+      address: "0x2c852e740B62308c46DD29B982FBb650D063Bd07", // Address of the aUSDC contract on Polygon
       abi: erc20ABI,
       functionName: "approve",
       args: [
@@ -72,7 +72,7 @@ export default function Home() {
     isError: isAllowanceError,
     isLoading: isAllowanceLoading,
   } = useContractRead({
-    address: "0x2c852e740B62308c46DD29B982FBb650D063Bd07", // Address of the USDC contract
+    address: "0x2c852e740B62308c46DD29B982FBb650D063Bd07", // Address of the aUSDC contract on Polygon
     abi: erc20ABI,
     functionName: "allowance",
     args: [address, POLYGON_CONTRACT_ADDRESS],
